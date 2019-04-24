@@ -1,0 +1,5 @@
+cd "$(dirname "$0")"
+./gradlew build
+cp build/libs/rodmsg-0.1.jar rodmsg
+java -jar rodmsg
+
